@@ -1,22 +1,24 @@
 import logo from './logo.svg';
 import './App.css';
-
+import HomeImage from './assets/images/Home.png';
+import Arrow from './assets/images/Vector.svg';
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <div className='mainMenu'>
+          <div className='calenderContainer'>
+            Calendar <span className='calenderYear'>2021</span>
+          </div>
+          <div>
+              <img src = {HomeImage}   className='imageContainer' />
+          </div>
+          <div className='profileInfoContainer'>
+            <h3 className='header'>Hi Mastan!</h3>
+            <p className='paragraphContainer'>Welcome to your daily event calendar. Be more engaging & personalised than ever before. We’ll help you in Tracking Upcoming Events, Scheduling Meetings & Creating New Event!</p>
+            <div className='ecclipse'><img src = {Arrow} className='arrow' /></div>
+          </div>
+        </div>
       </header>
     </div>
   );

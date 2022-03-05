@@ -36,3 +36,110 @@
     transform: rotate(360deg);
   }
 }
+
+/* Mastan Changes*/
+.mainMenu {
+  position: absolute;
+  width: 360px;
+  height: 640px;
+  left: 0px;
+  top: 0px;
+
+  background: #162b32;
+}
+
+.calenderContainer {
+  /* Calendar 2021 */
+
+  position: absolute;
+  width: 235px;
+  height: 46px;
+  left: 16px;
+  top: 48px;
+
+  font-family: Times;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 46px;
+  /* identical to box height */
+
+  color: #6a777c;
+}
+
+.calenderYear {
+  font-weight: 700;
+  color: white;
+}
+
+.imageContainer {
+  /* position: absolute;
+  height: 640px; */
+  width: 310px;
+  left: 0px;
+  top: 0px;
+
+  background: #162b32;
+  margin-top: 121px;
+}
+
+.profileInfoContainer {
+  position: absolute;
+  width: 360px;
+  height: 192px;
+  left: 0px;
+  top: 448px;
+
+  background: #ffffff;
+  border-radius: 16px 16px 0px 0px;
+}
+
+.ecclipse {
+  position: fixed;
+  width: 136px;
+  height: 136px;
+  left: 283px;
+  top: 573px;
+  background: #ff6a3d;
+  border-radius: 64px;
+}
+
+.arrow {
+  position: relative;
+  top: 25px;
+  right: 25px;
+}
+
+.paragraphContainer {
+  /* position: absolute; */
+  width: 328px;
+  height: 68px;
+  left: 16px;
+  top: 495px;
+
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 17px;
+  /* or 142% */
+
+  color: #4a4a4a;
+}
+
+.header {
+  /* position: absolute; */
+  width: 132px;
+  height: 23px;
+  left: 16px;
+  top: 464px;
+
+  font-family: Times;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  /* identical to box height */
+
+  color: #4a4a4a;
+}
