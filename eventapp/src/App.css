@@ -143,3 +143,68 @@
 
   color: #4a4a4a;
 }
+
+.monthDropdown {
+  position: absolute;
+  width: 96px;
+  height: 26px;
+  left: 66px;
+  top: 24px;
+
+  background: #2b4047;
+  border-radius: 50px;
+  color: white;
+  padding: 4px;
+}
+
+.monthNameDropDown {
+  position: absolute;
+  width: 56px;
+  height: 14px;
+  left: 78px;
+  top: 30px;
+
+  font-family: Times;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+.yearDisplay {
+  position: absolute;
+  width: 28px;
+  height: 16px;
+  left: 34px;
+  top: 29px;
+
+  font-family: Times;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+.backArrow {
+  position: absolute;
+  width: 5.5px;
+  height: 11px;
+  left: 20px;
+  top: 32px;
+}
+
+.profile {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 320px;
+  top: 25px;
+
+  /* background: url(.jpg), #c4c4c4; */
+}
